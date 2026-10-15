@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+# digests and reports hold private prompts; they live in ~/.claude/sculpt, never here
+*digest*.json
+reports/

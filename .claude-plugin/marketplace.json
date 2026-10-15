@@ -1,0 +1,16 @@
+{
+  "name": "sculpt",
+  "description": "Resculpt your Claude Code setup from your own session history.",
+  "owner": {
+    "name": "XyndoX",
+    "url": "https://github.com/XyndoX"
+  },
+  "plugins": [
+    {
+      "name": "sculpt",
+      "source": "./",
+      "description": "Resculpt your Claude Code setup from your own session history.",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "sculpt",
+  "version": "0.1.0",
+  "description": "Claude resculpts your setup from your own session history: finds bottlenecks, unused plugins/skills/MCP servers, recurring friction, and proposes the hooks, skills, agents and habits that fix it.",
+  "author": { "name": "XyndoX", "url": "https://github.com/XyndoX" },
+  "repository": "https://github.com/XyndoX/sculpt",
+  "license": "MIT",
+  "keywords": ["self-improvement", "audit", "sessions", "hooks", "skills", "workflow", "coaching"]
+}
