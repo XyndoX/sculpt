@@ -58,7 +58,7 @@ Reports are saved to `~/.claude/sculpt/reports/<date>.md`.
 
 ## Privacy
 
-Everything stays on your machine. The digest contains your own prompts, so it goes to a temp file and the report to `~/.claude/sculpt/`; neither is ever written into a repo or sent anywhere. The analysis runs in your normal Claude Code session.
+Nothing is uploaded beyond your normal Claude Code session. The digest contains your own prompts, so it goes to a temp file and the report to `~/.claude/sculpt/`; neither is ever written into a repo. The analysis runs in your normal Claude Code session, so the digest is read by the model like any other context.
 
 ## Test
 
