@@ -1,15 +1,22 @@
-# sculpt
+<p align="center">
+  <img src="assets/logo.svg" width="160" alt="sculpt logo — a chisel carving a smooth form out of a block">
+</p>
 
-A Claude Code plugin that has Claude resculpt your setup from your own session history.
+<h1 align="center">sculpt</h1>
 
-Run `/sculpt` and Claude reads the last 30 days of your sessions, then tells you:
+<p align="center">
+  <em>Claude resculpts your Claude Code setup from your own session history.</em>
+</p>
 
-- **where the bottleneck is**: recurring tool errors, permission denials, retry loops, compactions, and the moments you had to correct it;
-- **what's dead weight**: enabled plugins, skills, agents and MCP servers you never touched, each one costing context on every turn;
-- **what's missing**: the hook, skill, subagent or workflow that would have removed a recurring pain, checked first against what you already have installed and what already exists;
-- **how to steer better**: three habits from your own prompts, each with a before and after.
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude%20Code-plugin-c9562c?style=flat-square" alt="Claude Code plugin">
+  <img src="https://img.shields.io/badge/python-stdlib%20only-2a1a14?style=flat-square" alt="Python stdlib only">
+  <img src="https://img.shields.io/github/license/XyndoX/sculpt?style=flat-square&color=c9562c" alt="MIT license">
+</p>
 
-You get a ranked report with exact diffs. Nothing changes until you approve a proposal. The next run scores the last one's proposals: applied or not, and whether the numbers moved.
+---
+
+A [Claude Code](https://claude.com/claude-code) plugin that reads your past sessions and tells you where your setup is slowing you down: what breaks, what you never use, what's missing. You get a ranked report with exact diffs, and nothing changes until you approve it.
 
 ## Install
 
@@ -19,6 +26,19 @@ You get a ranked report with exact diffs. Nothing changes until you approve a pr
 ```
 
 Or from a terminal: `claude plugin marketplace add XyndoX/sculpt && claude plugin install sculpt@sculpt`.
+
+Then run `/sculpt`.
+
+## What you get
+
+Run `/sculpt` and Claude reads the last 30 days of your sessions, then tells you:
+
+- **where the bottleneck is**: recurring tool errors, permission denials, retry loops, compactions, and the moments you had to correct it;
+- **what's dead weight**: enabled plugins, skills, agents and MCP servers you never touched, each one costing context on every turn;
+- **what's missing**: the hook, skill, subagent or workflow that would have removed a recurring pain, checked first against what you already have installed and what already exists;
+- **how to steer better**: three habits from your own prompts, each with a before and after.
+
+You get a ranked report with exact diffs. Nothing changes until you approve a proposal. The next run scores the last one's proposals: applied or not, and whether the numbers moved.
 
 ## Use
 

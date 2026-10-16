@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="sculpt logo — a chisel carving a smooth form out of a block">
+  <defs>
+    <linearGradient id="clay" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e2774a"/>
+      <stop offset="1" stop-color="#a63e1e"/>
+    </linearGradient>
+    <linearGradient id="marble" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f1e6d3"/>
+      <stop offset="1" stop-color="#fdf8ef"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="96" fill="url(#clay)"/>
+
+  <g transform="translate(-17 18)">
+    <!-- the original block, now partly carved away -->
+    <rect x="136" y="136" width="240" height="268" rx="4" fill="none" stroke="#fdf8ef" stroke-width="5" stroke-dasharray="14 12" opacity="0.5"/>
+
+    <!-- shadow -->
+    <ellipse cx="240" cy="410" rx="124" ry="10" fill="#3a1608" opacity="0.35"/>
+
+    <!-- the form that remains: square back, smooth carved front -->
+    <path d="M136 404 L136 136 L236 136 C 236 220, 330 250, 344 404 Z" fill="url(#marble)"/>
+    <rect x="136" y="136" width="44" height="268" fill="#ddcdb2"/>
+    <path d="M236 136 C 236 220, 330 250, 344 404" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- chips flying off the cut -->
+    <g fill="#fdf8ef">
+      <polygon points="282,206 302,196 296,218"/>
+      <polygon points="300,240 322,238 310,256"/>
+      <polygon points="324,206 338,204 330,218"/>
+    </g>
+
+    <!-- the chisel -->
+    <g transform="translate(254 190) rotate(-40)">
+      <polygon points="0,-3 18,-10 86,-10 86,10 18,10 0,3" fill="#2a1a14"/>
+      <rect x="84" y="-14" width="14" height="28" rx="3" fill="#6b4532"/>
+      <rect x="96" y="-17" width="92" height="34" rx="14" fill="#2a1a14"/>
+    </g>
+  </g>
+</svg>
